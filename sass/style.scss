@@ -1,0 +1,26 @@
+@import "libs/bootstrap-reboot.min";
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: rgb(39, 35, 35);
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+@import "blocks/header";
+
+
+
+@import "base/media";
